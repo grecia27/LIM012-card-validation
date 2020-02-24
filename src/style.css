@@ -1,0 +1,50 @@
+.header{
+  width: auto;
+  height: 1000px;
+  margin: auto;
+}
+
+ul ,   ol {
+  list-style: none;
+}
+
+.menu li a{
+  background: white;
+  text-decoration: none;
+  padding: 10px 90px;
+  display: block;
+}
+
+.menu > li{
+  float: left;
+}
+.paginados{
+  color: black;
+  border: 3px solid #80FDEF;
+  padding-left: 0px;
+  margin-top: 30px;
+  margin-right: 350px;
+  margin-bottom: 100px;
+  margin-left: 350px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  background: #D0EAF2;
+  padding-top:
+
+}
+.paginatres{
+  color: black;
+  border: 3px solid #80FDEF;
+  padding-left: 0px;
+  margin-top: 30px;
+  margin-right: 350px;
+  margin-bottom: 100px;
+  margin-left: 350px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  background: #D0EAF2;
+  padding-top:
+
+}

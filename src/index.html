@@ -1,14 +1,66 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <title>Tarjeta de crédito valida</title>
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
-</html>
+<meta charset="UTF-8">
+<!-- fondo de pantalla-->
+  <body background= "C:\Users\usuario\Desktop\lab-cc\LIM012-card-validation\img\fondo2.jpg">
+  <div id="header">
+      <ul class ="menu">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Ahorros</a></li>
+        <li><a href="">Validación de Tarjeta</a></li>
+        <li><a href="">Contacto</a></li>
+      </ul>
+
+        <script src=index.js type="preguntas"></script>
+    </script>
+
+<!--pagina # 1 -->
+<div class="paginados" id="contenedor2">
+  <link rel="stylesheet" href="style.css">
+  <img src="visa.jpg" height="150" width="250" />
+  <h2 class="verify2"<p>Validación de Tarjeta</p></h2>
+  <label for="">Nombre Completo</label>
+    <input type="text" name="" required id="nombrecompleto" maxlength= "15"
+    placeholder="Ingrese su Nombre ">
+
+<br>
+<label for="">Número de Tarjeta</label>
+  <input type="text" name="" required id="numcreditcard" maxlength= "16"
+    placeholder="***************" >
+
+    <br>
+
+                       <label for="">Marca de Tarjeta : </label>
+                       <input type="radio" name="estado1" value="a" required> Visa
+                       <input type="radio" name="estado1" value="e" required>Mastercard
+                 <br>
+                       <label for="">Seleccione tipo : </label>
+                       <input type="radio" name="estado2" value="a">Debito
+                       <input type="radio" name="estado2" value="e">Crédito
+    <br>
+    <br>
+    <!--boton para poder validar el # de tarjeta-->
+      <input type="button" id="verify" class="buttons" value="Verificar Tc" />
+       <br>
+       <br>
+
+</div>
+
+<!--pagina 3 -->
+
+<div class="paginatres" id="contenedor3">
+  <link rel="stylesheet" href="style.css">
+  <img src="carrito.png" height="200" width="250"/>
+  <article id="messageFinal" class="">
+        <h3 id="messageFinal">Estado de su Tarjeta:</h3>
+        <p id="hiddenCard"></p>
+        <h3 id="msn"></h3>
+        <input type="button" class="buttons" value="?" id="result" />
+      </article>
+  <p>Gracias</p>
+
+  <br>
