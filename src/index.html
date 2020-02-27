@@ -12,18 +12,24 @@
       <ul class ="menu">
         <li><a href="">Inicio</a></li>
         <li><a href="">Ahorros</a></li>
-        <li><a href="">Validación de Tarjeta</a></li>
+        <li><a href="">Serv. de Tarjeta</a></li>
         <li><a href="">Contacto</a></li>
       </ul>
+  </div>
+
 <!--pagina # 1 -->
+<form
+
 <div class="paginados" id="contenedor2"> <!--class para el css e id para java-->
   <script src=index.js type="preguntas"></script> <!--enlace para jalar la pestaña-->
     <link rel="stylesheet" href="style.css">
       <img src="visa.jpg" height="150" width="250" /><!--imagen central de tc-->
 
-<h2 class="verify2"<p>Validación de Tarjeta</p></h2><!-- titulo-->
+<h2 class="verify2"<p>Validación y Pago de Tarjeta</p></h2><!-- titulo-->
 
 <!--pregunta 1 -->
+
+
     <label for="">Nombre Completo</label>
       <input type="text" name="" required id="nombrecompleto" maxlength= "15"
         placeholder="Ingrese su Nombre "> <!--maxlength, es el max de caracteres en la casilla-->
@@ -34,35 +40,39 @@
   <input type="text" name="" required id="numcreditcard" maxlength= "16"
     placeholder="***************" >
 
-    <br>
 <!--opciones-->
-<label for="">Marca de Tarjeta : </label>
+<br>
+
+<label id="opcion1"for="">Marca de Tarjeta: </label>
     <input type="radio" name="estado1" value="a" required> Visa
     <input type="radio" name="estado1" value="e" required>Mastercard
 
   <br>
-<label for="">Seleccione tipo : </label>
+<label id="opcion2"for="">Seleccione tipo : </label>
     <input type="radio" name="estado2" value="a">Debito
     <input type="radio" name="estado2" value="e">Crédito
     <br>
-    <br>
-
+<label for="">Servicio</label>
+                <select class="servicios">
+                <option value="01">Agua</option>
+                <option value="02">Luz</option>
+                <option value="03">Universidad</option>
+                <option value="04">Impuesto vehicular</option>
+                <option value="05">Gas</option>
+                <br>
 <!--boton para poder validar el # de tarjeta-->
+
       <input type="button" id="verify" class="buttons" value="Verificar Tc" />
        <br>
        <br>
-
+</form>
 </div>
 
-<!--pagina 3 -->
-
-<div class="paginatres" id="contenedor3">
-  <link rel="stylesheet" href="style.css">
-    <img src="carrito.png" height="200" width="250"/>
-      <article id="messageFinal" class="">
-        <h3 id="messageFinal">Estado de su Tarjeta:</h3>
-          <input type="button" class="buttons" value="?" id="result" />
-           </article>
-  <p>Gracias</p>
-
-  <br>
+<!--barra final-->
+<div id="header2">
+    <ul class ="menu">
+      <li><a href="">Historia</a></li>
+      <li><a href="">Afiliación</a></li>
+      <li><a href="">Historial de pagos</a></li>
+      <li><a href="">Contacto</a></li>
+    </ul>
