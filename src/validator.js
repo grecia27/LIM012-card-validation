@@ -19,3 +19,4 @@ let reverse2 = finalreverse.reverse();
   console.log(reverse2);
 //se multiplan por 2
     let doubleNum = reverse2[i] * 2;
+}

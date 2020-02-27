@@ -1,78 +1,73 @@
-<!DOCTYPE>
-<html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-    <title>Tarjeta de crédito valida</title>
-  </head>
-<meta charset="UTF-8">
-<!-- fondo de pantalla-->
-  <body background= "C:\Users\usuario\Desktop\lab-cc\LIM012-card-validation\img\fondo2.jpg">
-<!--se crea barra con opciones-->
-  <div id="header">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <title>Tarjeta de crédito valida</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body> <background-image='fondo1.jpg'>
+  <header></header>
+  <nav>
+    <div id="header">
       <ul class ="menu">
         <li><a href="">Inicio</a></li>
         <li><a href="">Ahorros</a></li>
         <li><a href="">Serv. de Tarjeta</a></li>
         <li><a href="">Contacto</a></li>
       </ul>
-  </div>
-
-<!--pagina # 1 -->
-<form
-
-<div class="paginados" id="contenedor2"> <!--class para el css e id para java-->
-  <script src=index.js type="preguntas"></script> <!--enlace para jalar la pestaña-->
-    <link rel="stylesheet" href="style.css">
-      <img src="visa.jpg" height="150" width="250" /><!--imagen central de tc-->
-
-<h2 class="verify2"<p>Validación y Pago de Tarjeta</p></h2><!-- titulo-->
-
-<!--pregunta 1 -->
-
-
-    <label for="">Nombre Completo</label>
-      <input type="text" name="" required id="nombrecompleto" maxlength= "15"
-        placeholder="Ingrese su Nombre "> <!--maxlength, es el max de caracteres en la casilla-->
-
-<br>
-<!--pregunta 2-->
-<label for="">Número de Tarjeta</label>
-  <input type="text" name="" required id="numcreditcard" maxlength= "16"
-    placeholder="***************" >
-
-<!--opciones-->
-<br>
-
-<label id="opcion1"for="">Marca de Tarjeta: </label>
-    <input type="radio" name="estado1" value="a" required> Visa
-    <input type="radio" name="estado1" value="e" required>Mastercard
-
-  <br>
-<label id="opcion2"for="">Seleccione tipo : </label>
-    <input type="radio" name="estado2" value="a">Debito
-    <input type="radio" name="estado2" value="e">Crédito
-    <br>
-<label for="">Servicio</label>
-                <select class="servicios">
-                <option value="01">Agua</option>
-                <option value="02">Luz</option>
-                <option value="03">Universidad</option>
-                <option value="04">Impuesto vehicular</option>
-                <option value="05">Gas</option>
-                <br>
-<!--boton para poder validar el # de tarjeta-->
-
-      <input type="button" id="verify" class="buttons" value="Verificar Tc" />
-       <br>
-       <br>
-</form>
-</div>
-
-<!--barra final-->
-<div id="header2">
-    <ul class ="menu">
-      <li><a href="">Historia</a></li>
-      <li><a href="">Afiliación</a></li>
-      <li><a href="">Historial de pagos</a></li>
-      <li><a href="">Contacto</a></li>
-    </ul>
+    </div>
+  </nav>
+  <main>
+    <form>
+      <div class="paginados" id="contenedor2"> <!--class para el css e id para java-->
+        <img src="visa.jpg" height="150" width="250" /><!--imagen central de tc-->
+        <h2 class="verify2"><p>Validación y Pago de Tarjeta</p></h2><!-- titulo-->
+      </div>
+      <div class="formulario">
+        <!--pregunta 1 -->
+        <label for="">Nombre Completo</label>
+        <input type="text" name="" required id="nombrecompleto" maxlength= "15" placeholder="Ingrese su Nombre "> <!--maxlength, es el max de caracteres en la casilla-->
+        <br>
+        <!--pregunta 2-->
+        <label for="">Número de Tarjeta</label>
+        <input type="text" name="" required id="numcreditcard" maxlength= "16" placeholder="***************" >
+        <!--opciones-->
+        <br>
+        <label id="opcion1"for="">Marca de Tarjeta: </label>
+        <input type="radio" name="estado1" value="a" required> Visa
+        <input type="radio" name="estado1" value="e" required>Mastercard
+        <br>
+        <label id="opcion2"for="">Seleccione tipo : </label>
+        <input type="radio" name="estado2" value="a">Debito
+        <input type="radio" name="estado2" value="e">Crédito
+        <br>
+        <label for="">Servicio</label>
+        <select class="servicios">
+          <option value="01">Agua</option>
+          <option value="02">Luz</option>
+          <option value="03">Universidad</option>
+          <option value="04">Impuesto vehicular</option>
+          <option value="05">Gas</option>
+        </select>
+        <br>
+        <!--boton para poder validar el # de tarjeta-->
+        <input type="button" id="verify" class="buttons" value="Verificar Tc" />
+        <br>
+        <br>
+      </div>
+  </main>
+  <footer>
+    <div id="header2">
+      <ul class ="menu">
+        <li><a href="">Historia</a></li>
+        <li><a href="">Afiliación</a></li>
+        <li><a href="">Historial de pagos</a></li>
+        <li><a href="">Contacto</a></li>
+      </ul>
+    </div>
+  </footer>
+<script src=index.js type="preguntas"></script> <!--enlace para jalar la pestaña-->
+</body>
+</html>
