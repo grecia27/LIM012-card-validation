@@ -1,22 +1,33 @@
-const numerotarjeta2 = ("4137894711755904");
-let reverse = Array.from(numerotarjeta2); //array.from= crea una nueva instancia de Array
-// me separa en digitos los numeros en string (pone comas a cada elemento del str)
-console.log(reverse);
-// paso los digitos str a digitos numeros
-let finalreverse = []; // array vacio para crear mi nuevo array
-// recorro los elementos de mi array para que sean transformados en numeros
-for (let i = 0; i < reverse.length; i++) {
-      finalreverse.push(parseInt(reverse[i]));
-      // a cada valor de i lo transformo en numero, y lo pongo a finalreverse
-      console.log(finalreverse);
+const validator = {
+  isValid: (creditCardNumberFinal) => {
+    /*para transformar el array (split)*/
+  const cardNumber = creditCardNumberFinal.split('').reverse();
+  for (let i = 0; i < cardNumber.length; i++) {
+      if (i % 2 == 1) { // ==igual que
+          cardNumber[i] = cardNumber[i] * 2; //multiplicado*2
       }
-//se reversa el #
-let reverse2 = finalreverse.reverse();
-   console.log(reverse2) ; // [4095571174987314]
-
-//  ubico los numeros en posicion par
-  for (let i = 0 ; i < reverse2.length; i += 2) {
-  console.log(reverse2);
-//se multiplan por 2
-    let doubleNum = reverse2[i] * 2;
-}
+  }
+  /*join(''), para que los regrese sin nada entre los # */
+  /*La función parseInt ()   analiza un argumento de cadena 
+  y devuelve un número entero*/
+  let newCard = cardNumber.join('').split('');
+  let counter = 0;
+  for (let i = 0; i < newCard.length; i++) {
+      counter += parseInt(newCard[i]);
+  }
+  if (counter % 10 == 0) {
+      return true;
+  } else {
+      return false;
+  }
+},
+//poner * a los números//
+maskify: (creditCardNumberFinal) => {
+  /*para transformar el array (split)*/
+  const cardNumber = creditCardNumberFinal.split('');
+  for (let i = 0; i < cardNumber.length - 4; i++) {
+      cardNumber[i] = '#';
+  }
+  return cardNumber.join('')
+}}
+export default validator;

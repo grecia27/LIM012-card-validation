@@ -7,22 +7,22 @@ La validación del número de tarjeta se hace mediente la aplicación de un Algo
 
 * Quiénes son los principales usuarios de producto.
 
-Los principales usuarios de este productos son las personas que quieran realizar el pago de sus servicios afiliados previamente con su tarjeta.
+Los principales usuarios de este productos son las personas que quieran validar su número de tarjeta ya sea visa, mastercard, amex.
 
 * Cuáles son los objetivos de estos usuarios en relación con tu producto
 
-El objetivo de los usuarios es poder realizar el pago de sus servicios desde un app simple de manejar, segura (ya que tiene que ingresar mediante un usuario y clave ademas que al momento de ingresar su tarjeta no sale su número completo)
+El objetivo de los usuarios es poder ingresar el número de su tarjeta de credito o débito y verificar si esta es valida para poder realizar sus operaciones via web.
 
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-El usuario no va a tener que desplazarse de un lugar a otro para realizar el pago de sus servicios, ademas que es muy facil de utilizar.
+El usuario no va a tener la necesidad de comunicarse via telefonica o acercarse al banco para poder validar la tarjeta, simplemente ingresando por su app e ingresando la información solicitada pueden realizarlo.
 
 Prototito en papel:
 
 ![image](https://user-images.githubusercontent.com/60888044/75348983-d49f9b80-5871-11ea-93b2-af4d83261790.png)
 
 Imgen Final:
-![image](https://user-images.githubusercontent.com/60888044/75350329-5264a680-5874-11ea-9f27-c612b37da0cf.png)
+![image](https://user-images.githubusercontent.com/60888044/75998866-760c9a00-5ecf-11ea-80a0-25b21c3f09b8.png)
 
 
 ## 3. Objetivos de aprendizaje
@@ -34,13 +34,13 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 **aplicar** en tu proyecto.
 
 ### UX
-* [ ] [Diseñar la aplicación pensando y entendiendo al usuario](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
-*  ] [Crear prototipos para obtener feedback e iterar](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/00-sketching/00-sketching)
-* [ ] [Aplicar los principios de diseño visual](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/01-visual-design/01-visual-design-basics)
+* [x] [Diseñar la aplicación pensando y entendiendo al usuario](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
+* [x] [Crear prototipos para obtener feedback e iterar](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/00-sketching/00-sketching)
+* [x] [Aplicar los principios de diseño visual](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/01-visual-design/01-visual-design-basics)
 ### HTML y CSS
 * [ ] [Uso correcto de HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 * [ ] [Uso de selectores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
-* [ ] [Construir tu aplicación respetando el diseño realizado](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/css/01-css/02-boxmodel-and-display) (maquetación).
+* [x] [Construir tu aplicación respetando el diseño realizado](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/css/01-css/02-boxmodel-and-display) (maquetación).
 ### DOM
 * [ ] [Uso de selectores de nodos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/03-1-dom-methods-selection)
 * [ ] [Manejo de eventos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/04-events)
@@ -55,9 +55,9 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 ### Testing
 * [ ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
 ### Git y GitHub
-* [ ] [Comandos de git](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/01-git/04-commands)
+* [x] [Comandos de git](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/01-git/04-commands)
   (`add` | `commit` | `pull` | `status` | `push`).
-* [ ] [Manejo de repositorios de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
+* [x] [Manejo de repositorios de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
 ### Buenas prácticas de desarrollo
 * [ ] Organizar y dividir el código en módulos (Modularización).
 * [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).

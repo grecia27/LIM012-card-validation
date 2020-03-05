@@ -1,7 +1,5 @@
-
-
-ul ,   ol {
-  list-style: none;
+ul,ol {
+  list-style: none; 
 }
 
 .menu li a{
@@ -9,7 +7,9 @@ ul ,   ol {
   padding: 10px 90px;
   display: block;
   background: #D0EAF2;
-  border-radius: 30px solid #80FDEF;
+  border-radius: 80px;
+  border: 3px solid #6EBFF8;
+  
 }
 
 .menu > li{
@@ -17,7 +17,7 @@ ul ,   ol {
 }
 .paginados{
   color: black;
-  border: 3px solid #80FDEF;
+  border: 3px solid #6EBFF8;
   padding-left: 0px;
   margin-top: 10px;
   margin-right: 350px;
@@ -28,6 +28,7 @@ ul ,   ol {
   font-size: 15px;
   background: #D0EAF2;
   padding-top:0px;
+  border-radius: 50px;
 
 }
 .formulario{
@@ -43,5 +44,6 @@ ul ,   ol {
   font-size: 15px;
   background: #D0EAF2;
   padding-top:10px;
+  border-radius: 50px;
 
 }
